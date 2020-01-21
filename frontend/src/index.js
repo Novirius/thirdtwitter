@@ -20,11 +20,6 @@ import { setAuthToken } from './util/session_api_util';
 import { logout } from './actions/session_actions';
 
 
-ReactDOM.render(<App />, document.getElementById('root'));
-
-window.axios = axios;
-
-
 document.addEventListener('DOMContentLoaded', () => {
   let store;
 
